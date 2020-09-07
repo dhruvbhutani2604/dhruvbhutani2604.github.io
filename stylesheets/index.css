@@ -74,13 +74,13 @@ div h1{
 }
 
 #changingtext{
-	margin-top: 40px !important;
+	margin-bottom: 0;
+	margin-top: 30px !important;
 	color: white;
 	font-size: 2rem;
 }
 
 .cursor{
-	font-size: 1.5rem;
 	display: inline-block;
 	width: 2.2px;
 	background-color: white;
@@ -206,6 +206,10 @@ a[class="btn links"]{
   #changingtext{
 	font-size: 1.8rem !important;
 
+	margin-top: 30px !important;
+	margin-bottom: 10px !important;
+
+
   }
   .panel{
   	/*height: 35rem !important;*/
@@ -230,14 +234,16 @@ a[class="btn links"]{
 	}
 
   #changingtext{
-	font-size: 1.3rem !important;
+	display: none;
   }
 }
 
 @media only screen and (max-width: 500px) {
-	.panel{
- 	 	height: 35rem !important;
+ 	#changingtext{
+		margin-top: 30px !important;
+		margin-bottom: 60px !important;
  	}
+
 }
 
 
