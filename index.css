@@ -74,7 +74,7 @@ div h1{
 }
 
 #changingtext{
-	margin-top: 40px !important;
+	margin-top: 30px !important;
 	color: white;
 	font-size: 2rem;
 }
@@ -235,7 +235,7 @@ a[class="btn links"]{
 
 @media only screen and (max-width: 500px) {
 	.panel{
- 	 	height: 35rem !important;
+ 	 	height: 40rem !important;
  	}
 }
 
