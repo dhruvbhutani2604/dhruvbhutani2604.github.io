@@ -5,7 +5,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["73 is the best number", "Why?", "73 is the 21st prime number", "Its mirror, 37, is the 12th", "whose mirror, 21, is the product of multiplying seven and three", "and in binary, 73 is a palindrome, 1001001, which backwards is 1001001", "Regards Sheldon Cooper"];
+const textArray = ["73 is the best number", "Why?", "73 is the 21st prime number", "Its mirror, 37, is the 12th", "whose mirror, 21, is the product of multiplying 7 and 3", "and in binary, 73 is a palindrome, 1001001, which backwards is 1001001", "Regards Sheldon Cooper"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1500; // Delay between current and next text
