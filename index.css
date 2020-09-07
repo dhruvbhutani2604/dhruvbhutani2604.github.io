@@ -234,8 +234,7 @@ a[class="btn links"]{
 	}
 
   #changingtext{
-	font-size: 1.3rem !important;
-	margin-top: 30px !important;
+	display: none;
   }
 }
 
