@@ -205,6 +205,10 @@ a[class="btn links"]{
   #changingtext{
 	font-size: 1.8rem !important;
 
+	margin-top: 30px !important;
+	margin-bottom: 10px !important;
+
+
   }
   .panel{
   	/*height: 35rem !important;*/
@@ -230,14 +234,16 @@ a[class="btn links"]{
 
   #changingtext{
 	font-size: 1.3rem !important;
-	height: 80px;
+	margin-top: 30px !important;
   }
 }
 
 @media only screen and (max-width: 500px) {
-	.panel{
- 	 	height: 40rem !important;
+ 	#changingtext{
+		margin-top: 30px !important;
+		margin-bottom: 60px !important;
  	}
+
 }
 
 
