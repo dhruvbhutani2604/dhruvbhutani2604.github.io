@@ -48,7 +48,7 @@ strong{
 strong:hover{
 
 
-  	color: white;
+  	/*color: white;*/
   	text-shadow: 0 0 1.5px #fff;
   	transition: .25s;
 
@@ -59,15 +59,17 @@ div h1{
 	letter-spacing: 1px;
 	margin-bottom: 2rem;
 	font-size: 3.3rem;
-	color: white;
 	font-weight: 100;
-} 
+}
+
+h1 #sdai{
+	color: grey;
+}
 
 #pmain{
 
 	font-weight: 100;
 	text-align: center; 
-	color: white;
 	overflow: hidden;
 	font-size: 2rem;
 
@@ -76,7 +78,7 @@ div h1{
 #changingtext{
 	margin-bottom: 0;
 	margin-top: 30px !important;
-	color: white;
+	/*color: white;*/
 	font-size: 2rem;
 }
 
@@ -100,7 +102,7 @@ div h1{
 }
 
 #projectbtn{
-	color: #fff;
+	/*color: #fff;*/
 	text-decoration: none;
 	font-size: 1.8rem !important;
 	letter-spacing: 0.15em;
