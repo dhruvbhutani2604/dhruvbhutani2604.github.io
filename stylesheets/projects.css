@@ -118,6 +118,39 @@ body {
   left: 0; 
 }
 
+.breakout{
+  background: white !important;
+  border-radius: 0;
+  font-size: 1.3rem;
+  text-transform: uppercase; 
+  border: none;
+}
+
+.breakout{
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.breakout:after {    
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 50%;
+  position: absolute;
+  background: grey;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.breakout:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
 @media only screen and (max-width: 991px) {
   .img-fluid {
     box-shadow: none !important;
