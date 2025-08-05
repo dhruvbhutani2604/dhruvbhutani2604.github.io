@@ -7,25 +7,6 @@
     box-sizing: border-box;
 }
 
-
-.profile-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid rgba(255, 255, 255, 0.2);
-    box-shadow: var(--shadow-md);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.profile-image:hover {
-    transform: scale(1.05);
-    border-color: var(--primary-color);
-    box-shadow: var(--shadow-glow);
-}
-
 :root {
     --primary-color: #ffffff;
     --secondary-color: #cccccc;
@@ -424,24 +405,6 @@ section {
 }
 
 .photo-placeholder:hover {
-    transform: scale(1.05);
-    border-color: var(--primary-color);
-    box-shadow: var(--shadow-glow);
-}
-
-.profile-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid rgba(255, 255, 255, 0.2);
-    box-shadow: var(--shadow-md);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.profile-image:hover {
     transform: scale(1.05);
     border-color: var(--primary-color);
     box-shadow: var(--shadow-glow);

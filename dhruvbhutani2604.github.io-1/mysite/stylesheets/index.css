@@ -1,122 +1,105 @@
-body {
-	background-color: #fff;
-	transition: background-color 1s ease;
-	font-family: 'Nunito', sans-serif;
+body{
+    background-color: #fff;
+    transition: background-color 1s ease;
 }
 
 .color-white {
-	background-color: #FFF;
+  background-color: #FFF; 
 }
-
 .color-grey {
-	background-color: grey;
+  background-color: grey;
 }
-
 .color-indigo {
-	background-color: #4332CF;
+  background-color: #4332CF;
 }
-
 .color-blue {
-	background-color: #062030;
+  background-color: #062030;
 }
-
 .color-green {
-	background-color: #4DCF42;
+  background-color: #4DCF42;
 }
-
 .color-yellow {
-	background-color: #FAEB33;
+  background-color: #FAEB33;
 }
-
 .color-orange {
-	background-color: #F19031;
+  background-color: #F19031;
 }
-
 .color-black {
-	background-color: #000;
+  background-color: #000;
 }
 
 /*HOME*/
 
-.maincontent {
+.maincontent{
 	margin-top: 8%;
 	position: absolute;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 100;
 	z-index: 1;
 	opacity: 1;
+
 }
 
-strong {
+strong{
 	font-weight: 600 !important;
+
 }
 
-strong:hover {
-	color: white;
-	text-shadow: 0 0 1.5px #fff;
-	transition: .25s;
+strong:hover{
+
+
+  	color: white;
+  	text-shadow: 0 0 1.5px #fff;
+  	transition: .25s;
+
 }
 
-div h1 {
+div h1{
 	font-family: 'Nunito', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 2rem;
 	font-size: 3.3rem;
 	color: white;
 	font-weight: 100;
-}
+} 
 
-#pmain {
+#pmain{
+
 	font-weight: 100;
-	text-align: center;
+	text-align: center; 
 	color: white;
 	overflow: hidden;
 	font-size: 2rem;
-	line-height: 1.4;
+
 }
 
-#changingtext {
-	margin-bottom: 0;
-	margin-top: 30px !important;
+#changingtext{
+	margin-top: 40px !important;
 	color: white;
 	font-size: 2rem;
 }
 
-.cursor {
+.cursor{
+	font-size: 1.5rem;
 	display: inline-block;
 	width: 2.2px;
 	background-color: white;
 	margin-left: 0.1rem;
 	animation: blink 1s infinite;
 }
-
-.cursor.typing {
+.cursor.typing{
 	animation: none;
 }
 
-@keyframes blink {
-	0% {
-		background-color: white;
-	}
-
-	49% {
-		background-color: white;
-	}
-
-	50% {
-		background-color: transparent;
-	}
-
-	99% {
-		background-color: transparent;
-	}
-
-	100% {
-		background-color: white;
-	}
+@keyframes blink{
+	0% {background-color: white;}
+	49% {background-color: white;}
+	50% {background-color: transparent;}
+	99% {background-color: transparent;}
+	100% {background-color: white;}
 }
 
-#projectbtn {
+#projectbtn{
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.8rem !important;
@@ -128,33 +111,31 @@ div h1 {
 	margin-bottom: 3%;
 	text-transform: uppercase;
 	font-weight: 200;
-	transition: all 0.3s ease;
 }
 
-#projectbtn:after {
-	background: none repeat scroll 0 0 transparent;
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 2px;
-	left: 50%;
-	position: absolute;
-	background: #fff;
-	transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	width: 0;
+#projectbtn:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
-#projectbtn:hover:after {
-	width: 100%;
-	left: 0;
+#projectbtn:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
-#projectbtn:hover {
-	transform: translateY(-2px);
-	text-shadow: 0 0 1.5px #fff;
+#projectbtn{
+	
 }
 
-.linkimg {
+.linkimg{
 	background: none;
 	margin: 25px;
 	border-radius: 150px;
@@ -162,42 +143,37 @@ div h1 {
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
-	transition: all 0.3s ease;
 }
 
-.btn:focus {
+.btn:focus{
 	outline: none;
 	box-shadow: none !important;
 }
 
-a[class="btn links"] {
+a[class="btn links"]{
 	margin-top: 20px !important;
 	margin-bottom: 10px !important;
 }
 
-#linkedin:hover {
+#linkedin:hover{
 	background: #2872a3;
-	transform: scale(1.1);
 }
 
-#github:hover {
+#github:hover{
 	background: #7d2a7c;
-	transform: scale(1.1);
 }
 
-#instagram:hover {
+#instagram:hover{ 
 	background: #d6249f;
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-	transform: scale(1.1);
+  	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
-#twitter:hover {
+#twitter:hover{
 	background: #52a8e7;
-	transform: scale(1.1);
 }
 
-#particles-js {
-	position: absolute;
+#particles-js{
+	position:absolute;
 	width: 100%;
 	height: 55rem;
 	background: #414A4C;
@@ -212,61 +188,57 @@ a[class="btn links"] {
 	box-shadow: inset 0 1px 0 #50595B;
 	-webkit-box-shadow: inset 0 1px 0 #50595B;
 	-moz-box-shadow: inset 0 1px 0 #50595B;
-}
+ }
 
 @media only screen and (max-width: 991px) {
-	div h1 {
-		font-size: 2.8rem;
+  div h1{
+  	font-size: 2.8rem;
+  }
+
+  #pmain{
+	font-size: 1.8rem;
+  }
+
+  #projectbtn{
+	font-size: 1.8rem !important;
 	}
 
-	#pmain {
-		font-size: 1.8rem;
-	}
+  #changingtext{
+	font-size: 1.8rem !important;
 
-	#projectbtn {
-		font-size: 1.8rem !important;
-	}
-
-	#changingtext {
-		font-size: 1.8rem !important;
-
-		margin-top: 30px !important;
-		margin-bottom: 10px !important;
-
-
-	}
-
-	.panel {
-		/*height: 35rem !important;*/
-		text-align: center;
-	}
+  }
+  .panel{
+  	/*height: 35rem !important;*/
+  	text-align: center;
+  }
 
 
 }
 
 @media only screen and (max-width: 295px) {
+  
+  div h1{
+  	font-size: 2rem;
+  }
 
-	div h1 {
-		font-size: 2rem;
+  #pmain{
+	font-size: 1.3rem;
+  }
+
+  #projectbtn{
+	font-size: 1.3rem !important;
 	}
 
-	#pmain {
-		font-size: 1.3rem;
-	}
-
-	#projectbtn {
-		font-size: 1.3rem !important;
-	}
-
-	#changingtext {
-		display: none;
-	}
+  #changingtext{
+	font-size: 1.3rem !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-	#changingtext {
-		margin-top: 30px !important;
-		margin-bottom: 60px !important;
-	}
-
+	.panel{
+ 	 	height: 35rem !important;
+ 	}
 }
+
+
+
