@@ -3,9 +3,7 @@ const projects = [
     {
         id: "f1_data_platform",
         title: "F1 Data Platform",
-        description: "A focused F1 data platform implementing Phase 1 (Historical Data Ingestion) and Phase 2 (Data Warehouse) with a clean star schema design. Phase 3 extends the F1 data platform with Apache Airflow orchestration and AWS S3 integration
-
-",
+        description: "A focused F1 data platform implementing Phase 1 (Historical Data Ingestion) and Phase 2 (Data Warehouse) with a clean star schema design. Phase 3 extends the F1 data platform with Apache Airflow orchestration and AWS S3 integration",
         image: "imgs/f1.jpg", // Placeholder - you can replace with actual image
         imageAlt: "f1",
         link: "https://github.com/dhruvbhutani2604/f1-data-platform",
