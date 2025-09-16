@@ -1,19 +1,51 @@
 // Projects data - add new projects by adding objects to this array
 const projects = [
     {
-        id: "yelpcamp",
-        title: "YelpCamp",
-        description: "A full-stack web application built with Node.js and MongoDB. Features user authentication, CRUD operations, and RESTful API design. Demonstrates backend development skills and database management.",
-        image: "imgs/yelpcamp.png",
-        imageAlt: "YelpCamp Project",
-        link: "https://dhruvsyelpcamp.herokuapp.com/",
-        linkText: "Live Demo",
+        id: "f1_data_platform",
+        title: "F1 Data Platform",
+        description: "A focused F1 data platform implementing Phase 1 (Historical Data Ingestion) and Phase 2 (Data Warehouse) with a clean star schema design. Phase 3 extends the F1 data platform with Apache Airflow orchestration and AWS S3 integration
+
+",
+        image: "imgs/f1.jpg", // Placeholder - you can replace with actual image
+        imageAlt: "f1",
+        link: "https://github.com/dhruvbhutani2604/f1-data-platform",
+        linkText: "View Code",
         buttonClass: "yelpcamp",
         color: "blue",
-        imageOrder: "order-1 order-lg-2",
-        textOrder: "order-2 order-lg-1",
+        imageOrder: "order-1 order-lg-1",
+        textOrder: "order-2 order-lg-2",
         shadowColor: "#70ef5e",
-        shadowPosition: "15px 15px 0rem"
+        shadowPosition: "-15px 15px 0rem"
+    },
+    {
+        id: "stock-market",
+        title: "Stock Market Real-Time Data Streaming with Apache Kafka",
+        description: "This project demonstrates a real-time data engineering pipeline for streaming stock market data using Apache Kafka.",
+        image: "imgs/stockprice.jpg", // Placeholder - you can replace with actual image
+        imageAlt: "ML Pipeline Framework",
+        link: "https://github.com/dhruvbhutani2604/stock-market-kafka",
+        linkText: "View Code",
+        buttonClass: "yelpcamp",
+        color: "blue",
+        imageOrder: "order-1 order-lg-1",
+        textOrder: "order-2 order-lg-2",
+        shadowColor: "#70ef5e",
+        shadowPosition: "-15px 15px 0rem"
+    },
+    {
+        id: "bike-share",
+        title: "London Bike Rides Analysis",
+        description: "A comprehensive data analysis project exploring London's bike-sharing dataset with moving averages and heatmap visualizations using Tableau.",
+        image: "imgs/bikeshare.jpg", // Placeholder - you can replace with actual image
+        imageAlt: "ML Pipeline Framework",
+        link: "https://github.com/dhruvbhutani2604/bike-analysis",
+        linkText: "View Code",
+        buttonClass: "yelpcamp",
+        color: "blue",
+        imageOrder: "order-1 order-lg-1",
+        textOrder: "order-2 order-lg-2",
+        shadowColor: "#70ef5e",
+        shadowPosition: "-15px 15px 0rem"
     },
     {
         id: "sdai",
@@ -46,49 +78,19 @@ const projects = [
         shadowPosition: "15px 15px 0rem"
     },
     {
-        id: "ml-pipeline",
-        title: "ML Pipeline Framework",
-        description: "Built an end-to-end machine learning pipeline for automated model training, evaluation, and deployment. Includes data preprocessing, feature engineering, model selection, and MLOps best practices.",
-        image: "imgs/aif.gif", // Placeholder - you can replace with actual image
-        imageAlt: "ML Pipeline Framework",
-        link: "https://github.com/dhruv2604-create/ml-pipeline",
-        linkText: "View Code",
+        id: "yelpcamp",
+        title: "YelpCamp",
+        description: "A full-stack web application built with Node.js and MongoDB. Features user authentication, CRUD operations, and RESTful API design. Demonstrates backend development skills and database management.",
+        image: "imgs/yelpcamp.png",
+        imageAlt: "YelpCamp Project",
+        link: "https://dhruvsyelpcamp.herokuapp.com/",
+        linkText: "Live Demo",
         buttonClass: "yelpcamp",
         color: "blue",
-        imageOrder: "order-1 order-lg-1",
-        textOrder: "order-2 order-lg-2",
-        shadowColor: "#70ef5e",
-        shadowPosition: "-15px 15px 0rem"
-    },
-    {
-        id: "nlp-classifier",
-        title: "NLP Text Classifier",
-        description: "Developed a transformer-based text classification system using BERT and fine-tuning techniques. Achieved 95%+ accuracy on sentiment analysis and topic classification tasks with real-world datasets.",
-        image: "imgs/breakout.jpg", // Placeholder - you can replace with actual image
-        imageAlt: "NLP Text Classifier",
-        link: "https://github.com/dhruv2604-create/nlp-classifier",
-        linkText: "View Code",
-        buttonClass: "sdai",
-        color: "white",
         imageOrder: "order-1 order-lg-2",
         textOrder: "order-2 order-lg-1",
-        shadowColor: "#c2a336",
+        shadowColor: "#70ef5e",
         shadowPosition: "15px 15px 0rem"
-    },
-    {
-        id: "recommendation-system",
-        title: "Recommendation System",
-        description: "Built a collaborative filtering recommendation system using matrix factorization and deep learning. Achieved 15% improvement in recommendation accuracy compared to baseline models.",
-        image: "imgs/yelpcamp.png", // Placeholder - you can replace with actual image
-        imageAlt: "Recommendation System",
-        link: "https://github.com/dhruv2604-create/recommendation-system",
-        linkText: "View Code",
-        buttonClass: "breakout",
-        color: "black",
-        imageOrder: "order-1 order-lg-1",
-        textOrder: "order-2 order-lg-2",
-        shadowColor: "grey",
-        shadowPosition: "-15px 15px 0rem"
     }
 ];
 
